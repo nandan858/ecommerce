@@ -335,15 +335,19 @@ text-align: end;
   cursor: pointer;
 }
 .product-container{
-  margin-top: 15px;
+  margin-top: 10px;
   overflow: auto;
 max-height: 70vh;
 padding: 20px 10px;
+
 }
 .product{
   display: flex;
  gap: 30px;
   padding: 20px;
+  display: flex;
+align-items: flex-start;
+justify-content: space-between;
 }
 .product .cart-product-image{
   width:180px ;
@@ -381,6 +385,9 @@ padding: 20px 10px;
   cursor: pointer;
   background: transparent;
   border: none;
+  margin-left: 100px;
+  margin-top: 10px;
+  
 }
 .cart-bottom{
   position: absolute;
@@ -525,7 +532,10 @@ padding: 30px 65px;
 }
 .quantity-desc{
   border: 1px solid gray;
-padding: 6px;
+  padding: 10px;
+  display:flex;
+  justify-content: space-between;
+
 }
 .quantity-desc span{
   font-size: 16px;
